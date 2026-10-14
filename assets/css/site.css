@@ -31,6 +31,8 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.45;b
 .badge,.tag{font-size:.75rem;padding:.2rem .6rem;border-radius:999px;background:#eef3e8;border:1px solid var(--line);color:var(--moss-d)}
 .badge.dev{background:#e3efe0;border-color:var(--moss)}.badge.idea{background:#f4ecd9;border-color:#c9a876;color:#7a5a3a}
 .muted{color:var(--soft)}.small{font-size:.9rem}
+.todo{color:var(--soft);font-style:italic;background:#eef3e8;border-bottom:1px dashed var(--moss);padding:0 .25rem;border-radius:3px}
+.facts p{margin:.4rem 0}
 .divider{display:flex;align-items:center;gap:.8rem;margin:1.5rem auto 0;max-width:420px;color:var(--moss)}
 .divider::before,.divider::after{content:"";flex:1;height:2px;background:var(--moss)}
 .subhead{margin:1.2rem 0 .2rem;color:var(--moss-d)}
