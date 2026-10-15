@@ -2,4 +2,3 @@
 .git/**
 .wrangler
 wrangler.jsonc
-assetsignore-test
