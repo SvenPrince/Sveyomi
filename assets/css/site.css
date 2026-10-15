@@ -51,7 +51,7 @@ footer{border-top:3px solid var(--moss);margin-top:2rem;padding:1rem 0 2rem;text
 
 
 .gallery-item{margin:1rem 0 0;padding:0;overflow:hidden}
-.gallery-item img{width:100%;display:block;transition:transform .3s}
+.gallery-item img{width:100%;height:auto;display:block;transition:transform .3s}
 .gallery-item:hover img{transform:scale(1.03)}
 .gallery-item figcaption{padding:.9rem 1.2rem 1.2rem}
 .gallery-item h3{margin:.2rem 0}
