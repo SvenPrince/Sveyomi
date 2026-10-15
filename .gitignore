@@ -9,3 +9,6 @@ Desktop.ini
 # Keep localStorage backups out of the repo
 *-backup*.json
 localstorage-*.json
+
+# Wrangler runtime cache (config zelf hoort WEL in de repo)
+.wrangler/
