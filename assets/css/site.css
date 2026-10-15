@@ -49,3 +49,13 @@ a:hover .proj-img,.proj-thumbs a:hover img{opacity:.85}
 footer{border-top:3px solid var(--moss);margin-top:2rem;padding:1rem 0 2rem;text-align:center;background:#fafaf5cc}
 @media(max-width:700px){.links{display:none}.menu-btn{display:block}.grid{grid-template-columns:1fr}.hero h1{font-size:2.6rem}}
 
+
+.gallery-item{margin:1rem 0 0;padding:0;overflow:hidden}
+.gallery-item img{width:100%;display:block;transition:transform .3s}
+.gallery-item:hover img{transform:scale(1.03)}
+.gallery-item figcaption{padding:.9rem 1.2rem 1.2rem}
+.gallery-item h3{margin:.2rem 0}
+.quote{font-style:italic;color:var(--soft);margin:0}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;z-index:100;cursor:zoom-out}
+.lightbox.open{display:flex}
+.lightbox img{max-width:92vw;max-height:92vh;border-radius:8px}
