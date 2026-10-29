@@ -64,3 +64,5 @@ footer{border-top:3px solid var(--moss);margin-top:2rem;padding:1rem 0 2rem;text
 .lang-btn.active{border-color:var(--moss);background:var(--moss);color:#fff}
 .lang-btn:hover{border-color:var(--moss-d)}
 .mobile-menu .lang-switch{margin:.5rem 0 0;border-top:1px solid var(--line);padding-top:.5rem;justify-content:center}
+#backToTop{position:fixed;bottom:2rem;right:2rem;width:48px;height:48px;border-radius:50%;border:none;background:var(--moss);color:#fff;font-size:1.5rem;cursor:pointer;display:none;align-items:center;justify-content:center;z-index:50;box-shadow:0 4px 12px rgba(0,0,0,.2)}
+#backToTop:hover{background:var(--moss-d)}

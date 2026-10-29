@@ -21,3 +21,7 @@ function applyLang(l) {
 }
 langs.forEach(b => { b.onclick = e => { e.preventDefault(); applyLang(b.lang); }; });
 applyLang(lang);
+
+/* Terug naar boven */
+const btt=$('backToTop');
+if(btt){window.onscroll=()=>{btt.style.display=window.scrollY>300?'flex':'none';};btt.onclick=()=>window.scrollTo({top:0,behavior:'smooth'});}
